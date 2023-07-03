@@ -330,6 +330,18 @@ body {
     padding: 0;
   }
 
+  .starting_price-container {
+    border: none;
+  }
+
+  .starting-price p{
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+  }
+
   .build-price {
     width: 100%;
   }
@@ -462,8 +474,11 @@ body {
 @media (max-width: 450px) {
   .performance {
     width: 100%;
-    /* border: 1px solid greenyellow; */
   } 
+
+  .performance-content-container h1 {
+    font-size: 1.5rem;
+  }
 }
 
 
@@ -504,3 +519,60 @@ body {
     /* border-radius: ; */
   }
 }
+
+.dodge_hp-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 5rem auto;
+}
+
+.dodge_hp-container .horse_power {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  /* padding: 20px 0; */
+  /* border: solid 1px #fff; */
+}
+
+.horse_power h1 {
+  font-size: 3.5rem;
+  line-height: 1;
+  padding-bottom: 10px;
+}
+
+.horse_power p {
+  font-size: 1rem;
+}
+
+.horse_power:nth-child(1) {
+  border-right: solid 1px #fff;
+}
+.horse_power:nth-child(2) {
+  border-right: solid 1px #fff;
+}
+
+@media (max-width: 450px) {
+  .dodge_hp-container {
+    margin: 2rem auto;
+    gap: 18px;
+  }
+
+  .dodge_hp-container .horse_power {
+    width: 45%;
+    border: none;
+  }
+
+  .horse_power h1 {
+    font-size: 1.1rem;
+  }
+
+  .horse_power p {
+    font-size: .7rem;
+  }
+}
+
