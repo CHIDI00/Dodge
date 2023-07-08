@@ -552,10 +552,15 @@ body {
   height: 30rem;
 }
 
+.engine1 {
+  padding-bottom: 20px;
+}
+
 .engine1 img {
   width: 100%;
   object-fit: cover;
   height: 100%;
+  /* margin-bottom: 10px */
 }
 
 .engine2 img {
