@@ -647,7 +647,7 @@ body {
   color: #fff;
 }
 
-#section-title p {
+.section-title p {
   font-size: 3rem;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
