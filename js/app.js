@@ -1,9 +1,7 @@
 const allSections = document.querySelectorAll('.section');
-console.log(allSections);
 
 const showSections = function (entries, observer) {
   const [entry] = entries;
-  console.log(entry);
 
   if (!entry.isIntersecting) return;
   entry.target.classList.remove('active');
