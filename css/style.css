@@ -1056,7 +1056,6 @@ footer {
   padding-left: 50px;
   padding-right: 50px;
   background-color: #282727;
-  /* gap: 30px; */
 }
 
 .first_footer-links .image-link {
@@ -1112,7 +1111,7 @@ footer {
   .first_footer-links {
     padding-left: 10px;
     padding-right: 10px;
-    gap: 30px;
+    gap: 50px;
   }
 
   .first_footer-links .image-link {
