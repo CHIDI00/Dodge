@@ -29,7 +29,7 @@ const colorName = document.querySelector('.color_name')
 
 btn1.addEventListener('click', function() {
   carImage.src = `images/${images[1]}.png`
-  colorName.textContent = 'Dodge Mate Gray'
+  colorName.textContent = 'Dodge Gray'
 })
 btn2.addEventListener('click', function() {
   carImage.src = `images/${images[4]}.png`;
@@ -41,7 +41,7 @@ btn3.addEventListener('click', function() {
 })
 btn4.addEventListener('click', function() {
   carImage.src = `images/${images[0]}.png`
-  colorName.textContent = 'Dodge DarkGray'
+  colorName.textContent = 'Dodge Mate DarkGray'
 })
 btn5.addEventListener('click', function() {
   carImage.src = `images/${images[6]}.png`
